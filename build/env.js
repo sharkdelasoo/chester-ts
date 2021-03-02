@@ -9,6 +9,4 @@ dotenv_1.default.config();
 exports.default = envalid_1.cleanEnv(process.env, {
     DB_STRING: envalid_1.str(),
     TELEGRAM_API: envalid_1.str(),
-    PORT: envalid_1.str(),
-    APP_NAME: envalid_1.str()
 });
